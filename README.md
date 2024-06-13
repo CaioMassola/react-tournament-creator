@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto de Criação de Torneio
 
-## Getting Started
+Bem-vindo ao projeto de criação de torneio! Este projeto permite configurar e gerenciar torneios de forma fácil e intuitiva, suportando diferentes formatos como fase de grupos, mata-mata, entre outros. O projeto foi desenvolvido utilizando React, Next.js, TypeScript e SCSS.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Configuração de Participantes**: Defina o número de participantes do torneio.
+- **Formatos de Torneio**: Escolha entre diferentes formatos de torneio, como fase de grupos e mata-mata.
+- **Gerenciamento de Partidas**: Crie e gerencie partidas de forma automática ou manual.
+- **Acompanhamento de Resultados**: Visualize os resultados e o progresso do torneio em tempo real.
+- **Interface Intuitiva**: Interface amigável e fácil de usar.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática ao código.
+- **SCSS**: Extensão do CSS que permite o uso de variáveis, aninhamento de regras e mais.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Instalação
+Para instalar e rodar o projeto localmente, siga os passos abaixo:
 
-## Learn More
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/CaioMassola/react-tournament-creator.git
+   cd react-tournament-creator
+   npm install
+   npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+2. **Abra o navegador e acesse http://localhost:3000**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribuição
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
-## Deploy on Vercel
+1. **Fork o repositório**:
+   Clique no botão "Fork" e no canto superior direito da página do repositório no GitHub para criar uma cópia do repositório em sua conta.
+2. **Clone o repositório**:
+   Clone o repositório forkado para o seu ambiente local.
+   ```bash
+   git clone https://github.com/CaioMassola/react-tournament-creator.git
+   cd react-tournament-creator
+   npm install
+   npm run dev
+3. **Solicite um tarefa na aba Isseus**
+4. Padrão de commit
+   ```bash
+   git add
+   git commit -m 'implements: Nome da Isseu #numeroDaIsseu'
+   git push
+5. **Abra um Pull Request**;
+   No GitHub, navegue até o seu repositório forkado e clique no botão "New Pull Request" para abrir um Pull Request com suas alterações.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuidores
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://caiomassola.github.io">
+          <img src="https://avatars.githubusercontent.com/u/47333514?v=4?s=100" width="100px;" height="100px" style="border-radius: 50%;" alt="Caio Massola"/><br />
+          <p>Caio Massola 😎</p>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Aproveite e divirta-se criando e gerenciando torneios com este projeto! Se tiver alguma dúvida ou sugestão, sinta-se à vontade para abrir uma issue ou contribuir diretamente no repositório.
