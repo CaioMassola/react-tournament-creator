@@ -1,0 +1,17 @@
+@import '../../global/styles/main.module.scss';
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $black;
+    box-shadow: 0 2px 4px $blackLight;
+}
+
+.icon {
+    margin-right: 50px;
+    cursor: pointer;
+}
