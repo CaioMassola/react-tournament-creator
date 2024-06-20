@@ -1,27 +1,24 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Layout from "@/app/components/Layout";
-import "./globals.scss";
+import dynamic from "next/dynamic";
+import { FC, ReactNode } from 'react';
+import Layout from '@/app/components/Layout';
+import './globals.scss';
 
-const inter = Inter({ subsets: ["latin"] });
+const ReduxProvider = dynamic(() => import("@/store/redux-provider"), {
+  ssr: false
+});
 
-export const metadata: Metadata = {
-  title: "react-tournament-creator",
-  description: "react-tournament-creator",
+type LayoutWrapperProps = {
+  children: ReactNode;
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Layout>
-          {children}
-        </Layout>
-      </body>
-    </html>
-  );
-}
+const LayoutWrapper: FC<LayoutWrapperProps> = ({ children }) => (
+  <html lang="en">
+    <body>
+      <ReduxProvider>
+        <Layout>{children}</Layout>
+      </ReduxProvider>
+    </body>
+  </html>
+);
+
+export default LayoutWrapper;
