@@ -1,7 +1,7 @@
 "use client";
-import React, { ReactNode, useCallback, useState } from "react";
-import Navbar from "@/app/components/Navbar";
-import styles from '@/app/components/Layout/layout.module.scss';
+import React, { ReactNode } from "react";
+import Navbar from "@/components/Navbar";
+import styles from '@/components/Layout/layout.module.scss';
 import { useAppSelector } from "@/store/store";
 type IBackgroundLayoutProps = {
     children: ReactNode;

@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 import { FC, ReactNode } from 'react';
-import Layout from '@/app/components/Layout';
+import Layout from '@/components/Layout';
 import './globals.scss';
 
 const ReduxProvider = dynamic(() => import("@/store/redux-provider"), {

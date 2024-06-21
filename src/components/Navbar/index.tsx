@@ -5,11 +5,11 @@ import DarkModeIcon from '@mui/icons-material/DarkMode';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import { TranslateText } from '@/app/Utils/i18n';
+import { TranslateText } from '@/Utils/i18n';
 import { setLanguageState } from '@/store/reducers/language';
 import { useAppDispatch, useAppSelector } from '@/store/store';
 import { setThemeState } from "@/store/reducers/theme";
-import styles from '@/app/components/Navbar/navbar.module.scss';
+import styles from '@/components/Navbar/navbar.module.scss';
 
 const Navbar = () => {
     const dispatch = useAppDispatch();

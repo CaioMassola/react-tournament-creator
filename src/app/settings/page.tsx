@@ -3,7 +3,7 @@
 
 import { TranslateText } from "@/Utils/i18n"
 
-export default function Home() {
+export default function Settings() {
   
   return (
       <div>
